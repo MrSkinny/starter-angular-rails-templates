@@ -19,6 +19,6 @@ app/assets/templates
 |_ welcome.html
 ```
 
-`all.js` - this is a manifest to require all files in the tree - should not need to be modified
-`./config/app.js` - put your angular module definition(s) here. You MUST include 'templates' dependency to use templates.
-`../templates/welcome.html` - refer to this via `templateUrl` as the root
+* `all.js` - this is a manifest to require all files in the tree - should not need to be modified
+* `./config/app.js` - put your angular module definition(s) here. You MUST include 'templates' dependency to use templates.
+* `../templates/welcome.html` - refer to this via `templateUrl` as the root
