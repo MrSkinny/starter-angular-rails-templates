@@ -1,3 +1,14 @@
 <div>
   I am coming from a template.
 </div>
+
+<h4>What's your name?</h4>
+
+<form ng-submit="paraCtrl.sayHi(person)">
+  <input type="text" ng-model="person.name">
+  <button type="submit">Send</button>
+</form>
+
+<p ng-show="paraCtrl.sayingHi">
+  Hi there, {{ person.name }}! <button ng-click="paraCtrl.sayingHi = false">Clear</button>
+</p>
