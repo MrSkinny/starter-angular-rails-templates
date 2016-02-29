@@ -10,7 +10,18 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+/* ======= LIBRARIES ======== */
 //= require jquery
+//= require jquery.turbolinks
 //= require jquery_ujs
+//= require bootstrap-sprockets
+//= require angular
+//= require angular-rails-templates
+//= require lodash
+
+/* ========= ANGULAR ======== */
+//= require 'angular/all'
+//= require_tree ./templates
+
+// *** PUT TURBOLINKS AT BOTTOM
 //= require turbolinks
-//= require_tree .
